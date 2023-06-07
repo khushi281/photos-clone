@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+
+
+
+/*******    container    *******/
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(42, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*******    box    *******/
+
+
+.box{
+    height: 550px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+
+/*******    nav    *******/
+
+
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    height: 80px;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:10px ;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size: 22px;
+    color: rgb(53, 53, 53);
+}
+.nav ul{
+    list-style: none;
+}
+
+.btn-section{
+    height: 80px;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.text-btn{
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:  rgb(53, 53, 53);
+    color: white;
+
+}
+.symbol-btn{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color: rgb(199, 197, 197);
+    border: none;
+    color: black;
+    
+}
+
+
+
+
+/*******    text-section    *******/
+
+
+.text-section{
+    height: 200px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.text-section h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: rgb(57, 56, 56);
+}
+.text-section p{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 18px;
+}
+button{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color:  rgb(53, 53, 53);
+    color: white;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*******    box-section    *******/
+
+
+.box-section{
+    height: 220px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.box-1{
+    height: 220px;
+    width: 330px;
+    
+}
+.box-1 img{
+    height: 220px;
+    width: 330px;
+    border-radius: 0px 0px 0px 17px;
+
+}
+
+.box-2{
+    height: 220px;
+    width: 330px;
+
+}
+.box-2 img{
+    height: 220px;
+    width: 330px;
+}
+
+.box-3{
+    height: 220px;
+    width: 330px;
+
+}
+.box-3 img{
+    height: 220px;
+    width: 330px;
+    border-radius: 0px 0px 17px 0px;
+
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .container{
+        height: 800px;
+        width: 100%;
+    }
+    .box{
+        height: 750px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .logo{
+       height: 15px;
+       width: 80px; 
+       margin-right: 40px;
+    }
+    .btn-section{
+        height: 50px;
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       margin-left: 10px;
+       margin-top: 13px;
+
+    }
+    .text-btn{
+        height: 30px;
+        width: 120px;
+        font-size: 10px;
+    }
+    .symbol-btn{
+        height: 30px;
+        width: 30px;
+    }
+    .text-section{
+        height: 200px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+       
+      
+    }
+    .text-section h1{
+        font-size: 20px;
+    }
+    .text-section p{
+        font-size: 12px;
+        padding-left: 30px;
+    }
+    .text-section button{
+        height: 32px;
+        width: 180px;
+        font-size: 12px;
+    }
+    .box-section{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .box-1{
+        height: 150px;
+        width: 250px;
+    }
+    .box-1 img{
+        height:150px;
+        width: 250px;
+        border-radius: 20px;
+    }
+    .box-2{
+        height: 150px;
+        width: 250px;
+
+    }
+    .box-2 img{
+        height:150px;
+        width: 250px;
+        border-radius: 20px;
+
+    }
+    .box-3{
+        height: 150px;
+        width: 250px;
+
+    }
+    .box-3 img{
+        height:150px;
+        width: 250px;
+        border-radius: 20px;
+
+    }
+}
